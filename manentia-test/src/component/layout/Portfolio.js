@@ -39,9 +39,9 @@ function Portfolio() {
           </div>
         </div>
         <div class="row" className="mt-5 pb-5">
-          <Button variant="primary" style={{ fontSize: "2rem" }}>
+          <btn class="btn-bg">
             View more &nbsp; <i class="bi bi-arrow-right"></i>
-          </Button>
+          </btn>
         </div>
       </div>
     </div>

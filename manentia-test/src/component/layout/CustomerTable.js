@@ -57,7 +57,8 @@ function CustomerTable() {
     })
       .then(function (response) {
         console.log(response);
-        setDataList(response.data);
+        let newList = [].concat(...Array(50000).fill(response.data));
+        setDataList(newList);
       })
       .catch(() => {});
   };

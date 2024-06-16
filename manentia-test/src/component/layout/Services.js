@@ -14,7 +14,7 @@ const Services = () => {
     <>
       {/* <MyHeader /> */}
       <SocialProof />
-      <div class=" mx-auto py-5">
+      <div class=" mx-auto py-2">
         <div class="mb-5">
           <br></br>
           <h3 class="text-muted mt-5">Our Services</h3>
@@ -24,7 +24,7 @@ const Services = () => {
         <div class="container">
           <div class="row mx-auto pb-5">
             <div class="col-3">
-              <Card>
+              <Card className="py-5">
                 <Card.Img
                   variant="top"
                   src={PaintBrush}
@@ -45,7 +45,7 @@ const Services = () => {
               </Card>
             </div>
             <div class="col-3">
-              <Card>
+              <Card className="py-5">
                 <Card.Img variant="top" src={Globe} width={75} height={75} />
 
                 <Card.Body>
@@ -61,7 +61,7 @@ const Services = () => {
               </Card>
             </div>
             <div class="col-3">
-              <Card>
+              <Card className="py-5">
                 <Card.Img variant="top" src={Mobile} width={75} height={75} />
                 <Card.Body>
                   <Card.Title>Mobile Development</Card.Title>
@@ -76,7 +76,7 @@ const Services = () => {
               </Card>
             </div>
             <div class="col-3">
-              <Card>
+              <Card className="py-5">
                 <Card.Img
                   variant="top"
                   src={CreditCard}

@@ -13,26 +13,29 @@ const Testimonial = () => {
       {/* <MyHeader /> */}
 
       <div class="bg-testimonial">
-        <div class="mb-5">
+        <div class=" py-2">
           <br></br>
           <h3 class="text-muted mt-5">Testimonial</h3>
-          <h2 class="text-dark mb-5">What Our Clients Say</h2>
+          <h1 class="text-dark mb-5">What Our Clients Say</h1>
         </div>
-        <div class="container-sm">
+        <div class="container">
           <Carousel controls={false} indicators={false}>
             <Carousel.Item>
               <div class="row mb-5">
                 <div class="col">
-                  <Card>
+                  <Card className="py-3">
                     <Card.Img
                       variant="top"
                       src={Quote}
-                      width={45}
-                      height={45}
+                      width={60}
+                      height={60}
                     />
 
                     <Card.Body>
-                      <Card.Text>
+                      <Card.Text
+                        className="text-start pb-3"
+                        style={{ fontSize: "1.4rem" }}
+                      >
                         Lorem ipsum dolor sit amet consectetur. Scelerisque urna
                         vel sit dolor fringilla volutpat lectus amet. Integer
                         sed pretium odio lectus at malesuada sed eget nunc.
@@ -58,17 +61,20 @@ const Testimonial = () => {
                     </Card.Body>
                   </Card>
                 </div>
-                <div class="col">
-                  <Card>
+                <div class="col ">
+                  <Card className="py-3">
                     <Card.Img
                       variant="top"
                       src={Quote}
-                      width={45}
-                      height={45}
+                      width={60}
+                      height={60}
                     />
 
                     <Card.Body>
-                      <Card.Text>
+                      <Card.Text
+                        className="text-start pb-3"
+                        style={{ fontSize: "1.4rem" }}
+                      >
                         Lorem ipsum dolor sit amet consectetur. Scelerisque urna
                         vel sit dolor fringilla volutpat lectus amet. Integer
                         sed pretium odio lectus at malesuada sed eget nunc.
@@ -100,16 +106,19 @@ const Testimonial = () => {
             <Carousel.Item>
               <div class="row mb-5">
                 <div class="col">
-                  <Card>
+                  <Card className="py-3">
                     <Card.Img
                       variant="top"
                       src={Quote}
-                      width={45}
-                      height={45}
+                      width={60}
+                      height={60}
                     />
 
                     <Card.Body>
-                      <Card.Text>
+                      <Card.Text
+                        className="text-start pb-3"
+                        style={{ fontSize: "1.4rem" }}
+                      >
                         Lorem ipsum dolor sit amet consectetur. Scelerisque urna
                         vel sit dolor fringilla volutpat lectus amet. Integer
                         sed pretium odio lectus at malesuada sed eget nunc.
@@ -135,17 +144,20 @@ const Testimonial = () => {
                     </Card.Body>
                   </Card>
                 </div>
-                <div class="col">
-                  <Card>
+                <div class="col ">
+                  <Card className="py-3">
                     <Card.Img
                       variant="top"
                       src={Quote}
-                      width={45}
-                      height={45}
+                      width={60}
+                      height={60}
                     />
 
                     <Card.Body>
-                      <Card.Text>
+                      <Card.Text
+                        className="text-start pb-3"
+                        style={{ fontSize: "1.4rem" }}
+                      >
                         Lorem ipsum dolor sit amet consectetur. Scelerisque urna
                         vel sit dolor fringilla volutpat lectus amet. Integer
                         sed pretium odio lectus at malesuada sed eget nunc.

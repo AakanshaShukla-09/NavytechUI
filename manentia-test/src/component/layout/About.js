@@ -47,32 +47,42 @@ function About() {
                 ></i>
               </div>
               <div class="px-4 text-start">
-                <h2 class=" pt-4">Our Vision</h2>
-                <p>
+                <h2
+                  class=" pt-4"
+                  style={{ fontFamily: "Arial", fontWeight: "bold" }}
+                >
+                  Our Vision
+                </h2>
+                <div style={{ fontSize: "1.25rem" }}>
                   Lorem ipsum dolor sit amet consectetur. Ut elementum ac eget
                   at. Id et at dui arcu risus.
-                </p>
+                </div>
               </div>
             </div>
-            <div class="d-flex ">
-              <div class="p-1">
+            <div class="d-flex pt-3">
+              <div class="px-1">
                 <i
                   class="bi bi-bullseye"
                   style={{ fontSize: "4rem", color: "blue" }}
                 ></i>
               </div>
               <div class="px-4 text-start">
-                <h2 class=" pt-2">Our Mission</h2>
-                <p>
+                <h2
+                  class="pt-3"
+                  style={{ fontFamily: "Arial", fontWeight: "bold" }}
+                >
+                  Our Mission
+                </h2>
+                <div style={{ fontSize: "1.35rem" }}>
                   Lorem ipsum dolor sit amet consectetur. Quam arcu habitasse
                   fusce pharetra.
-                </p>
+                </div>
               </div>
             </div>
-            <div class="d-flex pt-5">
-              <Button variant="primary" style={{ fontSize: "2rem" }}>
+            <div class="d-flex pt-4 mx-1">
+              <btn class="btn-bg">
                 Read More &nbsp; <i class="bi bi-arrow-right"></i>
-              </Button>
+              </btn>
             </div>
           </div>
         </div>

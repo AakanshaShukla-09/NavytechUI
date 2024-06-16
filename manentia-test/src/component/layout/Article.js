@@ -18,15 +18,13 @@ function Article() {
       <div class="container">
         <div class="row mx-auto pb-5">
           <div class="col">
-            <Card>
+            <Card border="white">
               <Card.Img variant="top" src={Article1} />
               <ArticleInfo />
 
               <Card.Body>
-                <Card.Title className="text-start">
-                  Lorem ipsum dolor sit amet
-                  <br />
-                  consectetur.
+                <Card.Title className="text-start pb-2">
+                  <h3> Lorem ipsum dolor sit amet consectetur.</h3>
                 </Card.Title>
 
                 <a
@@ -36,19 +34,18 @@ function Article() {
                     textDecoration: "none",
                   }}
                 >
-                  view details <i class="bi bi-chevron-right "></i>
+                  View details <i class="bi bi-chevron-right "></i>
                 </a>
               </Card.Body>
             </Card>
           </div>
           <div class="col">
-            <Card>
+            <Card border="white">
               <Card.Img variant="top" src={Article2} />
               <ArticleInfo />
               <Card.Body>
-                <Card.Title className="text-start">
-                  Lorem ipsum dolor sit amet <br />
-                  consectetur.
+                <Card.Title className="text-start pb-2">
+                  <h3>Lorem ipsum dolor sit amet consectetur.</h3>
                 </Card.Title>
                 <a
                   style={{
@@ -57,19 +54,18 @@ function Article() {
                     textDecoration: "none",
                   }}
                 >
-                  view details <i class="bi bi-chevron-right "></i>
+                  View details <i class="bi bi-chevron-right "></i>
                 </a>{" "}
               </Card.Body>
             </Card>
           </div>
           <div class="col">
-            <Card>
+            <Card border="white">
               <Card.Img variant="top" src={Article3} />
               <ArticleInfo />
               <Card.Body>
-                <Card.Title className="text-start">
-                  Lorem ipsum dolor sit amet <br />
-                  consectetur.
+                <Card.Title className="text-start pb-2">
+                  <h3>Lorem ipsum dolor sit amet consectetur.</h3>
                 </Card.Title>
                 <a
                   style={{
@@ -78,7 +74,7 @@ function Article() {
                     textDecoration: "none",
                   }}
                 >
-                  view details <i class="bi bi-chevron-right "></i>
+                  View details <i class="bi bi-chevron-right "></i>
                 </a>{" "}
               </Card.Body>
             </Card>
